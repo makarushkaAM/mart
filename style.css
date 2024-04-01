@@ -1,0 +1,63 @@
+.body {}
+
+.body__header {
+	background-image: url(./Img/Rectangle1.png);
+	background-repeat: no-repeat;
+	width: 1440px;
+	height: 765px;
+}
+
+.header {}
+
+.header__up {
+	display: flex;
+	background-color: #F2785CB2;
+	box-shadow: 0px 4px 4px#0D606F80;
+}
+
+.up {}
+
+.up__globo {
+	display: flex;
+}
+
+.globo {}
+
+.globo__img {}
+
+.globo__h1 {}
+
+.up__nav {}
+
+
+.nav {}
+
+.nav__list {}
+
+.list {}
+
+.list__1 {}
+
+.list__link {}
+
+.list__2 {}
+
+.list__3 {}
+
+.list__4 {}
+
+.up__button {}
+
+.header__bottom {}
+
+.bottom {}
+
+.bottom__h2 {}
+
+.bottom__p {}
+
+.bottom__form {}
+
+.bottom__button {}
+
+.header__moutains {}
