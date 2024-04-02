@@ -1,3 +1,7 @@
+ul {
+	list-style-type: none;
+}
+
 .body {}
 
 .body__header {
@@ -11,34 +15,57 @@
 
 .header__up {
 	display: flex;
+	justify-content: space-around;
 	background-color: #F2785CB2;
 	box-shadow: 0px 4px 4px#0D606F80;
+	width: 1440px;
+	height: 90px;
 }
 
 .up {}
 
 .up__globo {
-	display: flex;
+	vertical-align: middle;
 }
 
 .globo {}
 
-.globo__img {}
+.globo__img {
+	width: 30px;
+	height: 30px;
+}
 
-.globo__h1 {}
+.globo__h1 {
+	color: #FFFFFF;
+	font-family: Magra;
+	font-size: 32px;
+	font-weight: 600;
+	line-height: 38.88px;
+	text-align: right;
+
+}
 
 .up__nav {}
 
 
 .nav {}
 
-.nav__list {}
+.nav__list {
+	display: flex;
+	justify-content: space-around;
 
-.list {}
+}
+
+.list {
+	vertical-align: middle;
+}
 
 .list__1 {}
 
-.list__link {}
+.list__link {
+	color: #FFFFFF;
+	padding: 5px;
+}
 
 .list__2 {}
 
@@ -46,7 +73,14 @@
 
 .list__4 {}
 
-.up__button {}
+.up__button {
+	width: 103px;
+	height: 41px;
+	color: #FFFFFF;
+	background-color: #0D606F;
+	border-radius: 10px;
+
+}
 
 .header__bottom {}
 
