@@ -16,6 +16,7 @@ ul {
 .header__up {
 	display: flex;
 	justify-content: space-around;
+	align-items: center;
 	background-color: #F2785CB2;
 	box-shadow: 0px 4px 4px#0D606F80;
 	width: 1440px;
@@ -25,7 +26,8 @@ ul {
 .up {}
 
 .up__globo {
-	vertical-align: middle;
+	display: flex;
+	align-items: center;
 }
 
 .globo {}
@@ -33,6 +35,7 @@ ul {
 .globo__img {
 	width: 30px;
 	height: 30px;
+	padding: 0 5px 0 0;
 }
 
 .globo__h1 {
@@ -53,18 +56,18 @@ ul {
 .nav__list {
 	display: flex;
 	justify-content: space-around;
-
 }
 
-.list {
-	vertical-align: middle;
-}
+
+.list {}
 
 .list__1 {}
 
 .list__link {
 	color: #FFFFFF;
-	padding: 5px;
+	padding: 15px;
+	font-family: Red Hat Text;
+	font-size: 16px;
 }
 
 .list__2 {}
@@ -76,22 +79,49 @@ ul {
 .up__button {
 	width: 103px;
 	height: 41px;
+	font-family: Red Hat Text;
 	color: #FFFFFF;
 	background-color: #0D606F;
 	border-radius: 10px;
-
+	box-shadow: 0 2px 2px #0D606F;
 }
 
-.header__bottom {}
+.header__bottom {
+	width: 892px;
+	height: 422px;
+}
 
 .bottom {}
 
-.bottom__h2 {}
+.bottom__h2 {
+	font-family: 'Aleo';
+	color: #FFFFFF;
+	font-size: 80px;
+	font-weight: 700;
+	line-height: 96px;
+}
 
-.bottom__p {}
+.bottom__p {
+	width: 723px;
+	height: 24px;
+	top: 346px;
+	left: 120px;
+	font-family: 'Aleo';
+	font-style: italic;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	color: #ffffff;
+}
 
 .bottom__form {}
 
-.bottom__button {}
+.bottom__button {
+	font-family: Red Hat Text;
+	color: #FFFFFF;
+	background-color: #0D606F;
+	border-radius: 10px;
+	box-shadow: 0 2px 2px #0D606F;
+}
 
 .header__moutains {}
