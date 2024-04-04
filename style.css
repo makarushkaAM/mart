@@ -125,3 +125,228 @@ ul {
 }
 
 .header__moutains {}
+
+.body__main {}
+
+.main {}
+
+.main__section {}
+
+.section {}
+
+.section__h2,
+.carousel__h2,
+.stories__h2 {
+	color: #F2785C;
+	text-align: center;
+	font-family: Red Hat Text;
+	font-size: 40px;
+	line-height: 53px;
+}
+
+.section__list {
+	display: flex;
+	justify-content: space-around;
+}
+
+.list {}
+
+.list__1 {}
+
+.first-part {}
+
+.first-part__one {}
+
+.one {}
+
+.one__p {}
+
+.one__fon {}
+
+.one__bike {}
+
+.list__2 {}
+
+.second-part {}
+
+.second-part__two {}
+
+.two {}
+
+.two__p {}
+
+.two__fon {}
+
+.two__bag {}
+
+.list__3 {}
+
+.third-part {}
+
+.third-part__three {}
+
+.three {}
+
+.three__p {}
+
+.three__fon {}
+
+.three__fly {}
+
+.main__carousel {}
+
+.carousel {}
+
+.carousel__fotos {
+	display: flex;
+}
+
+.fotos {}
+
+.fotos__roks {}
+
+.fotos__rocks {}
+
+.fotos__usa {}
+
+
+.main__ellipse {}
+
+.ellipse {
+	width: 80px;
+	height: 20px;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.ellipse__1 {}
+
+.ellipse__2 {}
+
+.ellipse__3 {}
+
+.main__more {
+	text-align: center;
+}
+
+
+
+.find {}
+
+.find__img {}
+
+.main__stories {}
+
+.stories {}
+
+.stories__water,
+.stories__road,
+.stories__car,
+.stories__mountains {
+	width: 1200px;
+	height: 250px;
+	margin: 0 0 25px 0;
+	display: flex;
+}
+
+.water {}
+
+.water__info {
+	color: #0D606F;
+}
+
+.info {
+	padding: 0 5px 0 0;
+}
+
+.info__h3 {
+	color: #0D606F;
+	font-family: 'Aleo';
+	font-size: 35px;
+	line-height: 42px;
+	text-align: left;
+}
+
+.info__text {
+	width: 760px;
+	height: 184px;
+	color: #0D606F;
+	font-family: 'Aleo';
+	font-size: 20px;
+	line-height: 24px;
+	text-align: left;
+}
+
+.water__foto,
+.road__foto,
+.mountains__foto,
+.car__foto {
+	width: 400px;
+	height: 250px;
+	border-radius: 16px;
+	box-shadow: 0 4px 4px;
+}
+
+.road {}
+
+.road__info {}
+
+.mountains {}
+
+.mountains__info {}
+
+.car {}
+
+.car__h3 {}
+
+.car__foto {}
+
+.car__info {}
+
+.stories__see {
+	text-align: center;
+}
+
+.see {}
+
+.see__more,
+.more__find {
+	border-radius: 10px;
+	background-color: #0D606F;
+	color: #FFFFFF;
+}
+
+.more {}
+
+.more__img {}
+
+.basement {
+	background-image: url(/Img/Rectangle27.png);
+	background-repeat: no-repeat;
+	width: 1440px;
+	height: 3735px;
+}
+
+.basement__down {}
+
+.down {}
+
+.down__h3 {
+	color: #FFFFFF;
+	font-family: Red Hat Text;
+	font-size: 16px;
+	text-align: center;
+}
+
+.down__telegram {}
+
+.down__youtube {}
+
+.youtube {}
+
+.youtube__square {}
+
+.youtube__triangle {}
+
+.down__twitter {}
