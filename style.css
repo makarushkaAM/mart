@@ -56,12 +56,13 @@ ul {
 .nav__list {
 	display: flex;
 	justify-content: space-around;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 21px;
 }
 
 
 .list {}
-
-.list__1 {}
 
 .list__link {
 	color: #FFFFFF;
@@ -69,12 +70,6 @@ ul {
 	font-family: Red Hat Text;
 	font-size: 16px;
 }
-
-.list__2 {}
-
-.list__3 {}
-
-.list__4 {}
 
 .up__button {
 	width: 103px;
@@ -89,6 +84,9 @@ ul {
 .header__bottom {
 	width: 892px;
 	height: 422px;
+	position: relative;
+	top: -50px;
+	left: 120px;
 }
 
 .bottom {}
@@ -102,10 +100,9 @@ ul {
 }
 
 .bottom__p {
+	margin: -50px 0 40px 0;
 	width: 723px;
 	height: 24px;
-	top: 346px;
-	left: 120px;
 	font-family: 'Aleo';
 	font-style: italic;
 	font-weight: 700;
@@ -114,10 +111,16 @@ ul {
 	color: #ffffff;
 }
 
-.bottom__form {}
+.bottom__form {
+	width: 892px;
+	height: 95px;
+}
 
 .bottom__button {
+	width: 228px;
+	height: 59px;
 	font-family: Red Hat Text;
+	font-size: 24px;
 	color: #FFFFFF;
 	background-color: #0D606F;
 	border-radius: 10px;
