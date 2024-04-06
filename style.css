@@ -2,7 +2,10 @@ ul {
 	list-style-type: none;
 }
 
-.body {}
+.body {
+	width: 1440px;
+	height: 3735px;
+}
 
 .body__header {
 	background-image: url(./Img/Rectangle1.png);
@@ -162,11 +165,22 @@ ul {
 
 .one {}
 
-.one__p {}
+.one__p {
+	position: relative;
+	top: 130px;
+	left: -60px;
+	color: #0D606F;
+	font-size: 20px;
+	font-family: 'Aleo';
+}
 
 .one__fon {}
 
-.one__bike {}
+.one__bike {
+	position: relative;
+	top: -80px;
+	left: 25px;
+}
 
 .list__2 {}
 
@@ -239,7 +253,11 @@ ul {
 
 .find__img {}
 
-.main__stories {}
+.main__stories {
+	max-width: 1445px;
+	max-height: 1270px;
+	background-color: #FFFFFFB2;
+}
 
 .stories {}
 
@@ -333,23 +351,57 @@ ul {
 
 .basement__down {}
 
-.down {}
+.down {
+	display: flex;
+	align-items: center;
+}
 
 .down__h3 {
+	position: relative;
+	top: 10px;
+	left: 600px;
 	color: #FFFFFF;
 	font-family: Red Hat Text;
 	font-size: 16px;
-	text-align: center;
 }
 
-.down__telegram {}
+.down__mas {
+	max-width: 140px;
+	max-height: 33px;
+	display: flex;
+	position: relative;
+	top: 0px;
+	left: 800px;
+}
 
-.down__youtube {}
+.mas__telegram {
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+
+.mas__youtube {
+	position: relative;
+	top: ;
+	left: ;
+}
 
 .youtube {}
 
-.youtube__square {}
+.youtube__square {
+	position: relative;
+	top: -5px;
+	left: 5px;
+}
 
-.youtube__triangle {}
+.youtube__triangle {
+	position: relative;
+	top: -30px;
+	left: 15px;
+}
 
-.down__twitter {}
+.mas__twitter {
+	position: relative;
+	top: 10px;
+	left: 0px;
+}
