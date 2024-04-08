@@ -53,7 +53,6 @@ ul {
 
 .up__nav {}
 
-
 .nav {}
 
 .nav__list {
@@ -63,7 +62,6 @@ ul {
 	font-weight: 500;
 	line-height: 21px;
 }
-
 
 .list {}
 
@@ -117,6 +115,8 @@ ul {
 .bottom__form {
 	width: 892px;
 	height: 95px;
+	background-color: #FFFFFFB2;
+	border-radius: 16px;
 }
 
 .bottom__button {
@@ -128,6 +128,9 @@ ul {
 	background-color: #0D606F;
 	border-radius: 10px;
 	box-shadow: 0 2px 2px #0D606F;
+	position: relative;
+	top: -77px;
+	left: 647px;
 }
 
 .header__moutains {}
@@ -190,11 +193,22 @@ ul {
 
 .two {}
 
-.two__p {}
+.two__p {
+	position: relative;
+	top: 130px;
+	left: -50px;
+	color: #0D606F;
+	font-size: 20px;
+	font-family: 'Aleo';
+}
 
 .two__fon {}
 
-.two__bag {}
+.two__bag {
+	position: relative;
+	top: -80px;
+	left: 25px;
+}
 
 .list__3 {}
 
@@ -204,11 +218,22 @@ ul {
 
 .three {}
 
-.three__p {}
+.three__p {
+	position: relative;
+	top: 130px;
+	left: -100px;
+	color: #0D606F;
+	font-size: 20px;
+	font-family: 'Aleo';
+}
 
 .three__fon {}
 
-.three__fly {}
+.three__fly {
+	position: relative;
+	top: -80px;
+	left: 20px;
+}
 
 .main__carousel {}
 
@@ -216,6 +241,9 @@ ul {
 
 .carousel__fotos {
 	display: flex;
+	position: relative;
+	top: 0;
+	left: -100px;
 }
 
 .fotos {}
@@ -226,7 +254,6 @@ ul {
 
 .fotos__usa {}
 
-
 .main__ellipse {}
 
 .ellipse {
@@ -234,6 +261,9 @@ ul {
 	height: 20px;
 	display: flex;
 	justify-content: space-around;
+	position: relative;
+	top: 0;
+	left: 640px;
 
 }
 
@@ -247,11 +277,21 @@ ul {
 	text-align: center;
 }
 
+.find {
+	width: 228px;
+	height: 59px;
+	font-size: 24px;
+	font-family: Red Hat Text;
+	font-weight: 500;
+}
 
-
-.find {}
-
-.find__img {}
+.find__img {
+	width: 35px;
+	height: 22px;
+	position: relative;
+	top: 5px;
+	left: -10px;
+}
 
 .main__stories {
 	max-width: 1445px;
@@ -336,11 +376,20 @@ ul {
 	border-radius: 10px;
 	background-color: #0D606F;
 	color: #FFFFFF;
+	width: 228px;
+	height: 59px;
+	font-size: 24px;
 }
 
 .more {}
 
-.more__img {}
+.more__img {
+	width: 35px;
+	height: 22px;
+	position: relative;
+	top: 5px;
+	left: -10px;
+}
 
 .basement {
 	background-image: url(/Img/Rectangle27.png);
