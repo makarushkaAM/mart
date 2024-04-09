@@ -112,11 +112,17 @@ ul {
 	color: #ffffff;
 }
 
-.bottom__form {
+input {
 	width: 892px;
 	height: 95px;
 	background-color: #FFFFFFB2;
 	border-radius: 16px;
+	color: #F2785C;
+	font-size: 24px;
+	font-style: italic;
+	font-family: 'Aleo';
+	padding-left: 50px;
+
 }
 
 .bottom__button {
@@ -130,7 +136,7 @@ ul {
 	box-shadow: 0 2px 2px #0D606F;
 	position: relative;
 	top: -77px;
-	left: 647px;
+	left: 700px;
 }
 
 .header__moutains {}
@@ -145,7 +151,7 @@ ul {
 
 .section__h2,
 .carousel__h2,
-.stories__h2 {
+.main__h2 {
 	color: #F2785C;
 	text-align: center;
 	font-family: Red Hat Text;
@@ -294,8 +300,9 @@ ul {
 }
 
 .main__stories {
-	max-width: 1445px;
-	max-height: 1270px;
+	padding: 20px 0 0 0;
+	width: 1445px;
+	height: 1250px;
 	background-color: #FFFFFFB2;
 }
 
@@ -381,7 +388,9 @@ ul {
 	font-size: 24px;
 }
 
-.more {}
+.more {
+	margin: 40px 0 0 0;
+}
 
 .more__img {
 	width: 35px;
@@ -394,8 +403,8 @@ ul {
 .basement {
 	background-image: url(/Img/Rectangle27.png);
 	background-repeat: no-repeat;
-	width: 1440px;
-	height: 3735px;
+	width: 1442px;
+	height: 1331px;
 }
 
 .basement__down {}
@@ -407,7 +416,7 @@ ul {
 
 .down__h3 {
 	position: relative;
-	top: 10px;
+	top: -5px;
 	left: 600px;
 	color: #FFFFFF;
 	font-family: Red Hat Text;
@@ -415,11 +424,11 @@ ul {
 }
 
 .down__mas {
-	max-width: 140px;
-	max-height: 33px;
+	width: 140px;
+	height: 33px;
 	display: flex;
 	position: relative;
-	top: 0px;
+	top: -12px;
 	left: 800px;
 }
 
@@ -429,11 +438,7 @@ ul {
 	left: 10px;
 }
 
-.mas__youtube {
-	position: relative;
-	top: ;
-	left: ;
-}
+.mas__youtube {}
 
 .youtube {}
 
