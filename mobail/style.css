@@ -1,0 +1,32 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.body {}
+
+.body__header {
+	width: 390px;
+	height: 257px;
+	background: url(/mobail/img/garrett-parker.jpg) 0 0 no-repeat;
+}
+
+.header {}
+
+.header__logo {}
+
+.logo {}
+
+.logo__img {}
+
+.header__form {}
+
+.form {}
+
+.form__input {}
+
+.form__button {}
