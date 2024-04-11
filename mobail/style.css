@@ -83,6 +83,15 @@ ul {
 	margin-top: 15px;
 }
 
+.main__h2 {
+	font-family: "Red Hat Text";
+	font-size: 14px;
+	font-weight: 500;
+	color: #F2785C;
+	text-align: center;
+	margin-top: 28px;
+}
+
 .main__list {
 	display: flex;
 	position: relative;
@@ -104,15 +113,47 @@ ul {
 	color: #0D606F;
 	font-family: 'Aleo';
 	font-size: 10px;
+	position: relative;
+	top: -20px;
+	left: 0px;
 }
 
-.kvadro__square {}
+.Tell {
+	width: 94px;
+	height: 22px;
+}
 
-.kvadro__bike {}
+.Share {
+	width: 111px;
+	height: 12px;
+}
 
-.kvadro__bag {}
+.We {
+	width: 98px;
+	height: 24px;
+}
 
-.kvadro__fly {}
+.kvadro__square {
+	padding-right: 75px;
+}
+
+.kvadro__bike {
+	position: relative;
+	top: -54px;
+	left: 17px;
+}
+
+.kvadro__bag {
+	position: relative;
+	top: -54px;
+	left: 17px;
+}
+
+.kvadro__fly {
+	position: relative;
+	top: -53px;
+	left: 16px;
+}
 
 .body__footer {}
 
