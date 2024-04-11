@@ -7,12 +7,14 @@ ul {
 	list-style-type: none;
 }
 
-.body {}
+.body {
+	width: 390px;
+}
 
 .body__header {
 	width: 390px;
 	height: 257px;
-	background: url(/mobail/img/garrett-parker.jpg) 0 0 no-repeat;
+	background: url(/img/garrett-parker.jpg) 0 0 no-repeat;
 }
 
 .header {}
@@ -21,12 +23,97 @@ ul {
 
 .logo {}
 
-.logo__img {}
+.logo__img {
+	position: relative;
+	top: 45px;
+	left: 15px;
+}
 
 .header__form {}
 
-.form {}
+.form {
+	width: 360px;
+	height: 48px;
+	background-color: #FFFFFFB2;
+	border-radius: 16px;
+	position: relative;
+	top: 108px;
+	left: 15px;
+}
 
-.form__input {}
+.form__input {
+	/*width: 360px;
+	height: 48px;
+	background-color: #FFFFFFB2;
+	border-radius: 16px;
+	position: relative;
+	top: 108px;
+	left: 15px;
+	*/
+	font-family: 'Aleo';
+	font-style: italic;
+	font-size: 14px;
+	color: #F2785C;
 
-.form__button {}
+}
+
+.form__button {
+	background-color: #0D606F;
+	width: 92px;
+	height: 30px;
+	border-radius: 10px;
+	font-family: 'Red Hat Text';
+	font-size: 11px;
+	color: #FFFFFF;
+	position: relative;
+	top: 10px;
+	left: 108px;
+}
+
+.main__squares {}
+
+.squares {}
+
+.squares__h2 {
+	font-family: "Red Hat Text";
+	font-size: 14px;
+	font-weight: 500;
+	color: #F2785C;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.main__list {
+	display: flex;
+	position: relative;
+	top: 21px;
+	left: 15px;
+}
+
+.list {}
+
+.list__li {}
+
+.li {}
+
+.li__kvadro {}
+
+.kvadro {}
+
+.kvadro__h3 {
+	color: #0D606F;
+	font-family: 'Aleo';
+	font-size: 10px;
+}
+
+.kvadro__square {}
+
+.kvadro__bike {}
+
+.kvadro__bag {}
+
+.kvadro__fly {}
+
+.body__footer {}
+
+.footer {}
