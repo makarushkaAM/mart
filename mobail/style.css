@@ -246,17 +246,166 @@ ul {
 	margin-top: -25px;
 }
 
-
-
-
-
-
-
-
 .body__footer {}
 
 .footer {
 	background: url(/img/bg.jpg) 0 0 no-repeat;
 	width: 390px;
 	height: 693px;
+	margin-top: 10px;
 }
+
+.footer__info {
+	background-color: #FFFFFFB2;
+	font-family: 'Aleo';
+	color: #0D606F;
+	width: 390px;
+	height: 628px;
+}
+
+.info__thailand {}
+
+.thailand {
+	display: flex;
+	width: 360px;
+	height: 130px;
+	padding: 10px;
+}
+
+.thailand__foto {}
+
+.thailand__information {}
+
+.information__thailand {}
+
+.h3 {
+	font-weight: 700;
+	font-size: 11px;
+	padding: 6px;
+}
+
+.information__pthai {}
+
+.text {
+	font-size: 9px;
+	padding: 6px;
+}
+
+.info__road {}
+
+.road {
+	display: flex;
+	padding: 5px 5px 5px 10px;
+}
+
+.road__foto {}
+
+.road__information {}
+
+.information {}
+
+.information__canyon {}
+
+.information__p {}
+
+.p {}
+
+.info__mount {
+	display: flex;
+	padding: 0px 5px 5px 10px;
+}
+
+.moumt {}
+
+.mount__img {}
+
+.mount__info {}
+
+.info {}
+
+.info__p {}
+
+.info__car {
+	display: flex;
+	margin: -16px 0px 5px 25px;
+}
+
+.car {}
+
+.car__foto {
+	transform: rotate(-90deg);
+}
+
+.car__car {
+	padding: 10px;
+}
+
+.car__h3 {}
+
+.car__p {}
+
+.info__button {}
+
+.button {}
+
+.button__see {
+	background-color: #0D606F;
+	width: 92px;
+	height: 30px;
+	border-radius: 10px;
+	font-family: 'Red Hat Text';
+	font-size: 11px;
+	color: #FFFFFF;
+	position: relative;
+	top: -19px;
+	left: 150px;
+	font-weight: 500;
+}
+
+.see {
+	display: flex;
+}
+
+.see__img {
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+
+.see__text {
+	position: relative;
+	top: 6px;
+	left: 20px;
+	font-weight: 500;
+	font-family: 'Rad Hat Text';
+	font-size: 11px;
+}
+
+.footer__messengers {
+	display: flex;
+	position: relative;
+	top: 20px;
+	left: 130px;
+}
+
+.mess {}
+
+.mess__tel {}
+
+.mess__you {}
+
+.you {}
+
+.you__1 {
+	position: relative;
+	top: 0px;
+	left: 20px;
+}
+
+.you__2 {
+	position: relative;
+	top: -7px;
+	left: -4px;
+}
+
+.mess__tw {}
