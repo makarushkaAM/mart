@@ -41,21 +41,22 @@ ul {
 	left: 15px;
 }
 
-.form__input {
-	/*width: 360px;
-	height: 48px;
-	background-color: #FFFFFFB2;
-	border-radius: 16px;
+.form__p {
+	color: #F2785C;
+	font-family: 'Aleo';
+	font-style: italic;
+	font-size: 14px;
 	position: relative;
-	top: 108px;
-	left: 15px;
-	*/
+	top: 15px;
+	left: 17px;
+}
+
+/*.form__input {
 	font-family: 'Aleo';
 	font-style: italic;
 	font-size: 14px;
 	color: #F2785C;
-
-}
+}*/
 
 .form__button {
 	background-color: #0D606F;
@@ -66,8 +67,8 @@ ul {
 	font-size: 11px;
 	color: #FFFFFF;
 	position: relative;
-	top: 10px;
-	left: 108px;
+	top: -7px;
+	left: 260px;
 }
 
 .main__squares {}
@@ -384,7 +385,7 @@ ul {
 .footer__messengers {
 	display: flex;
 	position: relative;
-	top: 20px;
+	top: 17px;
 	left: 130px;
 }
 
@@ -398,14 +399,18 @@ ul {
 
 .you__1 {
 	position: relative;
-	top: 0px;
-	left: 20px;
+	top: 2px;
+	left: 21px;
 }
 
 .you__2 {
 	position: relative;
-	top: -7px;
-	left: -4px;
+	top: -5px;
+	left: -5px;
 }
 
-.mess__tw {}
+.mess__tw {
+	position: relative;
+	top: 0px;
+	left: 25px;
+}
