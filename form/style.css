@@ -1,0 +1,93 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	width: 650px;
+	height: 436px;
+	border-radius: 16px;
+	font-family: 'Aleo';
+	background-color: #00000040;
+}
+
+.body__h1 {
+	font-weight: 700;
+	font-size: 32px;
+	color: #0D606F;
+}
+
+.body__form {}
+
+.body__h1 {}
+
+.body__form {}
+
+.form {}
+
+.form__email {}
+
+.email {}
+
+.email__p {
+	font-size: 16px;
+	color: #0D606F;
+}
+
+.email__input {
+	width: 560px;
+	height: 54px;
+	border-radius: 10px;
+}
+
+.form__pass {}
+
+.pass {}
+
+.pass__p {
+	font-size: 16px;
+	color: #0D606F;
+}
+
+.pass__password {
+	width: 560px;
+	height: 54px;
+	border-radius: 10px;
+}
+
+.form__button {
+	font-family: 'Red Hat Text';
+	color: #FFFFFF;
+	background-color: #0D606F;
+	width: 560px;
+	height: 54px;
+	border-radius: 10px;
+}
+
+
+.form {}
+
+.form__email {}
+
+.email {}
+
+.email__p {}
+
+.email__input {}
+
+.form__pass {}
+
+.pass {}
+
+.pass__p {}
+
+.pass__password {}
+
+.form__button {}
+
+.body__fig {}
+
+.body__p {
+	font-weight: 700;
+	font-size: 15px;
+}
